@@ -119,11 +119,6 @@ int main(){
 				reclock( fd, t_num, sizeof( struct record), F_UNLCK);
 				break;
 				 }
-
-
-
-
-
 			case 'q':
 				quit = TRUE;
 				return 0;
